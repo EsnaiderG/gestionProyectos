@@ -1,0 +1,45 @@
+# Gestión de Proyectos
+
+Este proyecto es un sistema de gestión de proyectos que permite a los usuarios gestionar proyectos, actividades, tareas, y recursos. Hay diferentes niveles de acceso dependiendo del rol del usuario (gerente o trabajador).
+
+## Integrantes
+
+- Esnaider Guzman Peñata
+
+## Configuración
+
+Para poner en marcha el proyecto, sigue estos pasos:
+
+1. Clona el repositorio a tu máquina local.
+2. Configura tu entorno de servidor local (XAMPP, WAMP, LAMP, etc.).
+3. Importa el archivo `bd_proyectos.sql` en tu sistema de gestión de bases de datos (MySQL, por ejemplo).
+4. Configura los parámetros de conexión a la base de datos en `db_conexion.php`.
+5. Inicia el servidor y accede al proyecto a través del navegador.
+
+## Acceso al Sistema
+
+El sistema tiene configurados los siguientes usuarios para pruebas:
+
+### Usuario Gerente
+
+- **IDUsuario:** `123456789`
+- **Contraseña:** `1234567890`
+
+### Usuario Trabajador
+
+- **IDUsuario:** `1234567890`
+- **Contraseña:** `prueba2`
+
+### Usuario Trabajador
+
+- **IDUsuario:** `1003789002`
+- **Contraseña:** `Dely123`
+
+## Características
+
+- **Gestión de Proyectos:** Vista, creación, edición y eliminación de proyectos.
+- **Gestión de Actividades:** Asociadas a proyectos específicos.
+- **Gestión de Tareas:** Asociadas a actividades específicas.
+- **Gestión de Recursos:** Asignación y gestión de recursos necesarios para las tareas y actividades.
+- **Roles de Usuarios:** Diferentes vistas y permisos basados en el rol del usuario (Gerente vs Trabajador).
+
